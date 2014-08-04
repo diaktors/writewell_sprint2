@@ -1,0 +1,79 @@
+ <?php 
+		$form1 = $this->form1;
+		$form1->setAttribute('action', $this->url('category',  array( 'action'     => 'addnew')));
+		$form1->prepare(); ?>
+		<div id="errormessage"> 
+		<?php 
+		echo $this->formelementerrors ( $form1->get ( 'category' ) );
+		?>
+		</div>
+		<?php echo $this->form()->openTag($form1); ?>
+
+		
+<div class="page-content">
+	<!-- BEGIN PAGE HEADER-->
+	<div class="row">
+		<div class="col-md-12">
+			<!-- BEGIN PAGE TITLE & BREADCRUMB-->
+			<h3 class="page-title">Category</h3>
+			<ul class="page-breadcrumb breadcrumb">
+				<li><i class="icon-home"></i> <a
+					href="<?php echo($this->url('admin',array('action'=>'dashboard'))); ?>">Home</a>
+					<i class="icon-angle-right"></i></li>
+				<li><a
+					href="<?php echo($this->url('category',array('action'=>'index'))); ?>">Category</a><i
+					class="icon-angle-right"></i></li>
+				<li><a
+					href="<?php echo($this->url('category',array('action'=>'addnew'))); ?>">Add
+						New Category</a></li>
+			</ul>
+			<!-- END PAGE TITLE & BREADCRUMB-->
+		</div>
+	</div>
+	<!-- END PAGE HEADER-->
+
+	<div class="clearfix"></div>
+	<!-- form start -->
+	<div class="portlet">
+		<div class="portlet-title">
+			<div class="caption">
+				<i class="fa fa-reorder"></i>Add New Category
+			</div>
+			<div class="tools">
+				<a href="javascript:;" class="collapse"></a> <a href="javascript:;"
+					class="reload"></a> <a href="javascript:;" class="remove"></a>
+			</div>
+		</div>
+		<div class="portlet-body">
+			<!-- BEGIN FORM-->
+
+			<div class="row">
+				<div class="col-md-6">
+
+
+					<div class="form-group">
+						<label class="col-md-3 control-label">Category Name :</label>
+						<div class="col-md-9">
+							<?php echo $this->formRow($form1->get('category'));?>
+							<span class="help-block"> </span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">&nbsp;</div>
+			</div>
+
+
+			<div class="form-actions fluid">
+				<div class="col-md-offset-3 col-md-9">
+					<button type="submit" class="btn btn-info">Submit</button>
+					<button type="button" class="btn btn-default">Cancel</button>
+				</div>
+			</div>
+	<?php		echo $this->form()->closeTag();		?>
+		</div>
+		<!-- END FORM-->
+	</div>
+</div>

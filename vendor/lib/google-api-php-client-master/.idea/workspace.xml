@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf3a658a-39cb-48b4-9e09-48a8b0179266" name="Default" comment="" />
+    <ignored path="google-api-php-client-master.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings">
+    <pharConfigPath>F:\Intern@RBA\pulse\composer.json</pharConfigPath>
+    <pharPath>F:\cloud computing\composer_2.phar</pharPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="google-api-php-client-master" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="simplefileupload.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/simplefileupload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="66" selection-start="654" selection-end="720" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="2805">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Google/Http/Request.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7956">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Google/Client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="10200">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OAuth2.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Google/Auth/OAuth2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="0" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="10149">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/examples/user-example.php" />
+        <option value="$PROJECT_DIR$/examples/fileupload.php" />
+        <option value="$PROJECT_DIR$/examples/index_using_textarea.html" />
+        <option value="$PROJECT_DIR$/src/Google/Http/REST.php" />
+        <option value="$PROJECT_DIR$/examples/updatefile.php" />
+        <option value="$PROJECT_DIR$/examples/displayfile.php" />
+        <option value="$PROJECT_DIR$/examples/appengineauth.php" />
+        <option value="$PROJECT_DIR$/src/Google/Auth/Abstract.php" />
+        <option value="$PROJECT_DIR$/src/Google/Auth/OAuth2.php" />
+        <option value="$PROJECT_DIR$/temp/readurl.php" />
+        <option value="$PROJECT_DIR$/examples/simplefileupload.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" zd_debug_port="10138" zd_settings_broadcasting_port="20081" />
+  <component name="PhpServers">
+    <option name="servers">
+      <server debugger_id="php.debugger.ZendDebugger" deployment_server="d235b3c1-8255-4092-aea9-f5f84df565dd" host="127.0.0.1" name="Unnamed" validation_dir="C:\" />
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php_home">
+    <include_path>
+      <path value="F:/Intern@RBA/pulse/vendor/lib/phpmaster" />
+      <path value="F:/Intern@RBA/pulse/vendor/composer" />
+      <path value="F:/Intern@RBA/pulse/vendor/zendframework/zendframework" />
+      <path value="F:/Intern@RBA/pulse/vendor/ZF2/library" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="temp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gotfunction" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\google-api-php-client-master\examples" />
+      <recent name="C:\xampp\htdocs\google-api-php-client-master\examples\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\google-api-php-client-master\examples" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.fileupload.php">
+    <configuration default="false" name="google-api-php-client-master" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fileupload.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/examples/fileupload.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.google-api-php-client-master" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.fileupload.php" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.fileupload.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.google-api-php-client-master" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf3a658a-39cb-48b4-9e09-48a8b0179266" name="Default" comment="" />
+      <created>1401259140949</created>
+      <updated>1401259140949</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22401172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/temp/readurl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="33" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="361" column="30" selection-start="10118" selection-end="10130" vertical-scroll-proportion="0.0" vertical-offset="6137" max-vertical-offset="10438">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Auth/OAuth2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="0" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="10149">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/simplefileupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="12" selection-start="3139" selection-end="3252" vertical-scroll-proportion="0.0" vertical-offset="1473" max-vertical-offset="2805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/readurl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="33" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="361" column="30" selection-start="10118" selection-end="10130" vertical-scroll-proportion="0.0" vertical-offset="6137" max-vertical-offset="10438">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Auth/OAuth2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="0" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="10149">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/simplefileupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.0" vertical-offset="1294" max-vertical-offset="2363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/displayfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="27" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/index_using_textarea.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="631" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/updatefile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Http/REST.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="14" selection-start="1955" selection-end="2016" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="2550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Service/Drive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1901" column="20" selection-start="65140" selection-end="65140" vertical-scroll-proportion="0.0" vertical-offset="32317" max-vertical-offset="101150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Service/Resource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="23" selection-start="6590" selection-end="6590" vertical-scroll-proportion="0.0" vertical-offset="3111" max-vertical-offset="3672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/simplefileupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="3588" selection-end="3588" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/index_using_textarea.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="631" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/updatefile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Http/REST.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="14" selection-start="1955" selection-end="2016" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="2550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Service/Drive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1901" column="20" selection-start="65140" selection-end="65140" vertical-scroll-proportion="0.0" vertical-offset="32317" max-vertical-offset="101150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Service/Resource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="23" selection-start="6590" selection-end="6590" vertical-scroll-proportion="0.0" vertical-offset="3111" max-vertical-offset="3672" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/testfile.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/testfile-small.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1048577" selection-start="1048577" selection-end="1048577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="333" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/fileupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="95" selection-start="3715" selection-end="3951" vertical-scroll-proportion="0.27226028" vertical-offset="1830" max-vertical-offset="2414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/user-example.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="50" selection-start="3170" selection-end="3170" vertical-scroll-proportion="0.02910959" vertical-offset="1292" max-vertical-offset="2312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/displayfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="45" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.7089041" vertical-offset="147" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/index_using_textarea.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="631" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/updatefile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Http/REST.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="14" selection-start="1955" selection-end="2016" vertical-scroll-proportion="-0.40753424" vertical-offset="1054" max-vertical-offset="2312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Service/Drive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="474" column="0" selection-start="15492" selection-end="15492" vertical-scroll-proportion="0.9391771" vertical-offset="7295" max-vertical-offset="100912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Service/Resource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="23" selection-start="6590" selection-end="6590" vertical-scroll-proportion="0.03938356" vertical-offset="2850" max-vertical-offset="3434" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/idtoken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="0" selection-start="3643" selection-end="3643" vertical-scroll-proportion="0.9417808" vertical-offset="1252" max-vertical-offset="1904" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/appengineauth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1588" selection-end="1588" vertical-scroll-proportion="-19.192308" vertical-offset="283" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="223" selection-end="223" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="60.576923" vertical-offset="1575" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Auth/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.8188277" vertical-offset="134" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Auth/AppIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="25" selection-start="820" selection-end="820" vertical-scroll-proportion="0.24156305" vertical-offset="0" max-vertical-offset="1462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Auth/AssertionCredentials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="0" selection-start="3928" selection-end="3928" vertical-scroll-proportion="0.9396092" vertical-offset="1579" max-vertical-offset="2210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Auth/Exception.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Auth/LoginTicket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.9396092" vertical-offset="406" max-vertical-offset="1037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="250" column="0" selection-start="6748" selection-end="6748" vertical-scroll-proportion="0.9417808" vertical-offset="3462" max-vertical-offset="4114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Exception.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="315" column="0" selection-start="9343" selection-end="9343" vertical-scroll-proportion="0.9417808" vertical-offset="4567" max-vertical-offset="5219" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="0" selection-start="2448" selection-end="2448" vertical-scroll-proportion="0.9417808" vertical-offset="1082" max-vertical-offset="1734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Auth/OAuth2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="0" selection-start="3867" selection-end="3867" vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="10149">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/readurl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="442" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="10200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/simplefileupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="66" selection-start="654" selection-end="720" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="2805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google/Http/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7956">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

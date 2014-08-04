@@ -1,0 +1,32 @@
+<div>
+	<h1 class="hidden">Welcome to WriteWell!</h1>
+	<div class="logo small"></div>
+	<div class="input-container"><span class="input-prefix">Required</span><input type="text" placeholder="First & Last Name"/></div>
+	<div class="input-container"><span class="input-prefix">Required</span><input type="email" placeholder="Email"/></div>
+	<div class="button-gender-container"><button class="button-landing button-gender pull-left"><span class="male-icon"></span>Male</button><button class="button-landing button-gender pull-right"><span class="female-icon"></span>Female</button></div>
+	<div class="clear-fix"></div>
+	<div class="button-group">
+		<button id="templatePlaceholder" type="button" class="button dropdown-toggle" data-toggle="dropdown">
+			Select Occupation
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="javascript:void(0)" class="templateDropdown" data-occupation="student">Student</a></li>
+			<li><a href="javascript:void(0)" class="templateDropdown" data-occupation="journalist">Journalist</a></li>
+			<li><a href="javascript:void(0)" class="templateDropdown" data-occupation="professor">Professor or Teacher</a></li>
+			<li><a href="javascript:void(0)" class="templateDropdown" data-occupation="business">Business User</a></li>
+			<li><a href="javascript:void(0)" class="templateDropdown" data-occupation="other">Other</a></li>
+		</ul>
+	</div>
+	<div id="age-slider-container">
+		<input id="age" value="13" disabled/>
+		<div class="input-container">
+			<span class="input-prefix age">Age</span>
+			<div id="slider-container"></div>
+			<div class="age-range"><span class="age-min">13</span><span class="age-max">100</span></div>
+			<div class="clear-fix"></div>
+		</div>
+	</div>
+	<button id="joinBtn" class="button-landing">Join</button>
+	<p class="muted centered">Already have an account? <a href="#signIn" class="link">Sign in now</a></p>
+</div>

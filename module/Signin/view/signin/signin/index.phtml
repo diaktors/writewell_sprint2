@@ -1,0 +1,28 @@
+ <?php
+		$form1 = $this->form1;
+		$form1->setAttribute('action', $this->url('signin',  array( 'action'     => 'index')));
+		$form1->prepare(); ?>
+
+		<?php echo $this->form()->openTag($form1); ?>
+
+		<div class="control-group">
+                    <div class="controls">
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-user"></i></span><?php echo $this->formRow($form1->get('user_email'));?>
+                        </div>
+                    </div>
+
+		<div class="controls">
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-user"></i></span><?php echo $this->formRow($form1->get('password'));?>
+                        </div>
+                    </div>
+
+                     <div class="form-actions">
+                    <span class="pull-left"><a href="#" class="flip-link" id="to-recover">Lost password?</a></span>
+                    <span class="pull-right"><?php  echo $this->formSubmit($form1->get('signupbutton')); ?></span>
+                   </div>
+
+		<?php		echo $this->form()->closeTag();		?>
+
+		</div>

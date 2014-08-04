@@ -1,0 +1,46 @@
+<div id="addSourceContainer" class="contentToClose modal">
+	<button class="closeBtn"></button>
+	<h1>Add a Source</h1>
+	<div class="source-types">
+		<button class="addSourceOptionBtn active source-document" data-source-type="document">
+			<div class="source-type-popover">Add Document</div>
+		</button>
+		<button class="addSourceOptionBtn source-text" data-source-type="text">
+			<div class="source-type-popover">Add Text</div>
+		</button>
+		<button class="addSourceOptionBtn source-link" data-source-type="link">
+			<div class="source-type-popover">Add Hyperlink</div>
+		</button>
+		<button class="addSourceOptionBtn source-audio" data-source-type="audio">
+			<div class="source-type-popover">Add Audio</div>
+		</button>
+		<button class="addSourceOptionBtn source-photo" data-source-type="photo">
+			<div class="source-type-popover">Add Image</div>
+		</button>
+		<button class="addSourceOptionBtn source-video" data-source-type="video">
+			<div class="source-type-popover">Add Video</div>
+		</button>
+	</div>
+	<div id="sourceDocumentInput" class="addSourceView active">
+		<button data-type="document" class="button-landing fileUpload">Upload</button>
+	</div>
+	<div id="sourceTextInput" class="addSourceView">
+		<textarea placeholder="Enter Text"></textarea>
+		<button data-type="text" class="button-landing addSourceBtn">Add</button>
+	</div>
+	<div id="sourcePhotoInput" class="addSourceView">
+		<button data-type="photo" class="button-landing fileUpload">Upload</button>
+	</div>
+	<div id="sourceVideoInput" class="addSourceView">
+		<button data-type="video" class="button-landing fileUpload">Upload</button>
+	</div>
+	<div id="sourceLinkInput" class="addSourceView">
+		<input type="text" placeholder="Enter URL" />
+		<button data-type="link" class="button-landing addSourceBtn">Add</button>
+	</div>
+	<div id="sourceAudioInput" class="addSourceView">
+		<button data-type="audio" class="button-landing fileUpload">Upload</button>
+	</div>
+
+		<input type="file" id="fileUploader" style="display:none;" />
+</div>

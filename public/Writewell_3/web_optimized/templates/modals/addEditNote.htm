@@ -1,0 +1,24 @@
+<div class="contentToClose modal">
+	<button class="closeBtn"></button>	
+	<% if (isEdit) { %>
+	<div id="addNoteContainer">
+		<h1><%=editAdd %></h1>
+		<div id="sourceLinkInput"><input id="noteTitle" type="text" placeholder="Enter Note Title" value="<%=note.title%>" /></div>
+		<textarea id="noteTextarea" placeholder="Add Your Note Here!"><%=note.text%></textarea>
+
+		<% if (!isNew) { %>
+			<button id="updateNoteBtn" class="button-landing">Save</button>
+		<% } else {%>
+			<button id="addNoteBtn" class="button-landing">Add</button>
+		<% } %>
+	</div>
+	<% } else { %>
+	<div id="editNoteContainer">
+		<h1><%=note.title%></h1>
+		<div id="sourceLinkInput" class="note-body"><%=note.text%></div>
+
+		<button id="editNoteBtn" class="button-landing half">Edit</button>
+		<button id="deleteNoteBtn" class="button-landing half">Delete</button>
+	</div>
+	<% } %>
+</div>

@@ -1,0 +1,59 @@
+// tcs1.cpp : Defines the entry point for the console application.
+//
+
+
+
+#include "stdlib.h"
+int main()
+{
+
+	int *a, n,i,j;
+	int *b,max=0;
+	
+    
+	
+	scanf("%d",&n);
+	a=(int *)malloc(sizeof(int)*n);
+	
+	
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+		if(max<a[i])
+			max=a[i];
+	}
+	system("cls");
+
+	b=(int *)malloc(sizeof(int)*max);
+		for( j=1;j<=max;j++)
+			b[j-1]=j*j;
+
+	for(i=0;i<n;i++)
+	{
+		int temp=a[i];
+		int count=0;
+		
+		for(int i=0;i<temp;i++)
+		{
+			for(int j=i+1;j<temp;j++)
+			{
+				for(  int k=j+1; k<temp;k++)
+				{
+					if(b[k]==b[j]+b[i])
+						count++;
+				}
+			}
+		}
+		
+		printf("%d\n",count);
+
+		
+
+		
+	}
+	
+	free(a);
+	free(b);
+	return 0;
+}
+

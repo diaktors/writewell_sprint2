@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $.fn.sync = function(arg) {
+                if ($.isPlainObject(arg)) {
+                    return this.each(function() {
+                        $.data(this, 'syncWith', $(arg.syncWith));
+                    })
+                } else {
+                    return this.each(function() {
+                        $(this).val(arg)
+                                .data('syncWith').val(arg);
+                    })
+                }
+            };
+
+            $('.fruit-value').each( function (index, data) {
+                $(this).sync({syncWith: '.fruit-value'});
+            });
+
+
+            $('.fruit-value').keyup(function(e) {
+
+                var temp=$(this).val();
+
+                $('.fruit-value').each( function (index, data) {
+
+
+                    $(this).sync(temp);
+                });
+
+            });
+
+
+        });
+    </script>
+    <title></title>
+</head>
+<body>
+
+
+
+
+<br>
+<br>
+<br>
+<form name="input" action="http://localhost/google-api-php-client-master/examples/simplefileupload.php" method="post">
+    content: <textarea name='data' class='fruit-value' id="1"  rows="15" cols="100"></textarea>
+    <br>
+    <br>
+    <br>
+
+    <textarea class='fruit-value' id="2" rows="15" cols="100"></textarea>
+
+    <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>

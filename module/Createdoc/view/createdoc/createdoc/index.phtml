@@ -1,0 +1,45 @@
+<script>
+$(document).ready(function(){
+
+
+	$('.my-editor').notebook();
+	$('.my-editor').text("<?php print_r($this->data) ?>");
+	$('.my-editor').on('keypress',
+			function(){
+				console.log($(this).html());
+				}
+			);
+
+});
+</script>
+
+
+<div class="box">
+        <div class="request">
+            <?php if (isset($this->authurl)): ?>
+                <a class='login' href='<?php echo $this->authurl ?>'>Connect Me!</a>
+            <?php endif; ?>
+        </div>
+
+
+    </div>
+
+
+
+
+<div class="my-editor">
+
+	 <?php if (isset($this->data)):   print_r($this->data); ?>
+
+            <?php endif; ?>
+
+
+
+</div>
+
+
+<div>
+
+   <iframe src="http://docs.google.com/gview?url=<?php print_r ($this->docurl) ?>"  ></iframe>
+
+</div>

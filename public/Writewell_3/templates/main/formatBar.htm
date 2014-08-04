@@ -1,0 +1,49 @@
+<div class="container">
+	<input id="projectTitle" class="header-title" placeholder="Enter Project Title Here" value="<%=projectTitle%>" />
+		<div id="formatBar">
+			<div class="button-group">
+				<div class="button-group font">
+					<button id="fontBtn" type="button" class="button dropdown-toggle" data-toggle="dropdown">
+						Arial
+						<span class="caret"></span>
+					</button>
+					<ul id="fonts" class="dropdown-menu">
+						<li><a font="arial" href="javascript:void(0)">Arial</a></li>
+						<li><a font="georgia" href="javascript:void(0)">Georgia</a></li>
+						<li><a font="times-new-roman" href="javascript:void(0)">Times New Roman</a></li>
+						<li><a font="comic-sans" href="javascript:void(0)">Comic Sans</a></li>
+					</ul>
+				</div>
+				<div class="button-separator"></div>
+				<div class="button-group font">
+					<button type="button" class="button dropdown-toggle" data-toggle="dropdown">
+						Size 12
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+						<li><a href="javascript:void(0)">10 pt</a></li>
+						<li><a href="javascript:void(0)">12 pt</a></li>
+					</ul>
+				</div>
+				<div class="button-separator"></div>
+				<button type="button" class="button button-default"><b>B</b></button>
+				<div class="button-separator"></div>
+				<button type="button" class="button button-default"><i>i</i></button>
+				<div class="button-separator"></div>
+				<button type="button" class="button button-default"><u>U</u></button>
+				<div class="button-separator"></div>
+				<button type="button" class="button button-default"><strike>ab</strike></button>
+				<div class="button-separator"></div>
+				<button type="button" class="button button-default justify-left"></button>
+				<div class="button-separator"></div>
+				<button type="button" class="button button-default justify-center"></button>
+				<div class="button-separator"></div>
+				<button type="button" class="button button-default justify-right"></button>
+			</div>
+		</div>
+		<div id="formatBarTools">
+			<button id="exportPromptBtn" type="button" class="button export button-default">Export</button>
+			<button id="saveBtn" type="button" class="button save button-default">Save</button>
+		</div>
+	</div>
+</div>

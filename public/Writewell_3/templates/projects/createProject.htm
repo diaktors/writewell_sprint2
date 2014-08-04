@@ -1,0 +1,20 @@
+<button class="closeBtn"></button>
+<h1>Create Project</h1>
+<div><input id="projectTitle" type="text" placeholder="Enter Title"/></div>
+<div>
+<div class="input-container">
+	<span class="input-prefix"></span>
+		<div id="templateId" class="button-group">
+			<button id="templatePlaceholder" type="button" class="button dropdown-toggle" data-toggle="dropdown">
+				Choose a Document Type<!--Text modified by pavan. Old text was Choose a template-->
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<% templates.each(function(template) { %>
+				<li><a value="<%=template.id%>" class="templateDropdown" href="javascript:void(0)"><%=template.get('title')%></a></li>
+				<% }); %>
+			</ul>
+		</div>
+	</div>
+</div>
+<button id="createProjectBtn" class="button-landing">Start Writing</button>
